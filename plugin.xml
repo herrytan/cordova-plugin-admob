@@ -30,7 +30,7 @@
         </config-file>
         <source-file src="src/android/AdMob.java" target-dir="src/com/rjfun/cordova/plugin" />
         
-        <framework src="com.google.android.gms:play-services-ads:+" />
+        <framework src="com.google.android.gms:play-services:+" />
      </platform>
      
      <!-- ios -->
