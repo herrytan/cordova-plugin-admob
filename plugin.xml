@@ -21,8 +21,6 @@
         <clobbers target="window.plugins.AdMob" />
     </js-module>
 
-	<dependency id="com.google.admobsdk"/>
-
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
@@ -31,6 +29,8 @@
             </feature>
         </config-file>
         <source-file src="src/android/AdMob.java" target-dir="src/com/rjfun/cordova/plugin" />
+        
+        <framework src="com.google.android.gms:play-services-ads:+" />
      </platform>
      
      <!-- ios -->
